@@ -1,0 +1,23 @@
+fieldset{
+    background-color:rgb(247, 220, 192);
+    border-color: 2px gray;
+    border-radius: 15px;
+    box-shadow: 8px 23px rgb(163, 126, 58);
+    width: 45rem;
+}
+legend{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+p{
+    margin: 0px;
+}
+
+input[type="text"]{
+    border: 2px solid rgb(167, 166, 166);
+    border-radius: 4px;
+    height: 1.2rem;
+}
+input[type="text"]:hover{
+    border: 3px solid black;
+}
