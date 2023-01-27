@@ -10,9 +10,9 @@ function szerkesztheto() {
     }
 }
 function veletlen(){
-    document.getElementById("szamA").value= Math.round(Math.random(10,101)*100)
-    document.getElementById("szamB").value= Math.round(Math.random(10,101)*100)
-    document.getElementById("atfogo").value= Math.round(Math.random(10,101)*100)
+    document.getElementById("szamA").value = Math.floor(Math.random()*91+10)
+    document.getElementById("szamB").value= Math.floor(Math.random()*91+10)
+    document.getElementById("atfogo").value= Math.floor(Math.random()*91+10)
 }
 
 function atfogo(){
